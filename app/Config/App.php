@@ -16,7 +16,7 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    public string $baseURL = 'http://34.200.80.233/tienda/';
+    public string $baseURL = 'http://ec2-34-200-80-233.compute-1.amazonaws.com/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
@@ -30,7 +30,7 @@ class App extends BaseConfig
      * @var string[]
      * @phpstan-var list<string>
      */
-    public array $allowedHostnames = [];
+    public array $allowedHostnames = [*];
 
     /**
      * --------------------------------------------------------------------------
